@@ -10,6 +10,7 @@
 (defn valor-descontado
   [valor-bruto]
   (let [desconto (- 1 0.1)]
+    (println  "Calculando desconto" desconto)
     (* valor-bruto desconto)))
 
 (println "Executando função valor descontado definindo simbolo local com let")
@@ -18,6 +19,7 @@
 (defn valor-descontado
   [valor-bruto]
   (let [desconto (/ 10 100)]
+    (println  "Calculando desconto" desconto)
     (* valor-bruto desconto)))
 
 (println "Executando função valor descontado alterando a forma que o simbolo desconto é calculado")
