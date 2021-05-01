@@ -11,6 +11,7 @@
 (def estoque ["PS4", "Notebook"])
 (println estoque)
 
+(println "Quantidade de itens no array" (count estoque))
 (println (estoque 0))
 (println (estoque 1))
 (println (conj estoque "Mouse"))
