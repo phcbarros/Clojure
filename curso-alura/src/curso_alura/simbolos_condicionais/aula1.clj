@@ -1,3 +1,4 @@
+(ns curso_alura.simbolos_condicionais.aula1)
 (defn valor-descontado
   "Retorna o valor com desconto de 10%"
   [valor-bruto]

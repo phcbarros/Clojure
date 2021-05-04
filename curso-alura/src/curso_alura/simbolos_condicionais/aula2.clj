@@ -1,3 +1,4 @@
+(ns curso_alura.simbolos_condicionais.aula2)
 (defn valor-descontado
   [valor-bruto]
   (let [taxa-de-desconto (/ 10 100)

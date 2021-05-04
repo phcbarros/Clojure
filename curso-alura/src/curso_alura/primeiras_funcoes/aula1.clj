@@ -1,3 +1,4 @@
+(ns curso_alura.primeiras_funcoes.aula1)
 (println "Bem vindo ao sistema de estoque")
 
 (def total-de-produto 15)

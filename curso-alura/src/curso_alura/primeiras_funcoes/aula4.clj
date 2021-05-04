@@ -1,4 +1,5 @@
-(defn imprime-mensagem 
+(ns curso_alura.primeiras_funcoes.aula2)
+(defn imprime-mensagem
   []
   (println "Bem-vindo(a) ao sistema de estoque!!!"))
 
